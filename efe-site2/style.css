@@ -1,0 +1,120 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.navbar li {
+    float: left;
+    
+
+}
+
+.navbar li a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 15px;
+    text-decoration: none;
+    float: left;
+}
+
+
+#navbar-header {
+    font-size: 25px;
+    float: left;
+    margin-right: 60px;
+    color: white;
+
+}
+#mainbar-header {
+    font-size:30px;
+    float: left;
+    color:red;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /*background-color: #f7f7f7; */
+   /* padding: 0px 180px 0 180px;*/
+}
+
+
+#idDeger p{
+    color:red;
+}
+
+#idEskiDeger p{
+    color:gray;
+
+}
+
+#card ul{
+    list-style-type: none;
+    float: right;
+}
+
+.card {
+    border-radius: 8px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: gray;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin:30px;
+}
+#card{
+    width:200px;
+    height:200px;
+    background-color:white;
+}
+
+#contentPart{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.footer .col {
+    margin: 60px;
+    text-align: left;
+    width: 160px;
+    float: left;
+}
+
+
+.footer .col ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    color: #999999;
+    font-size: 18px;
+    font-family: inherit;
+    text-align: left;
+    margin-top: 5px;
+}
